@@ -1,0 +1,93 @@
+/* Загальні налаштування */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Хедер */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-style: italic;
+}
+
+/* Основна структура */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Ліва колонка */
+aside {
+  flex: 1 1 250px;
+  padding: 20px;
+  background-color: #e6f0ff;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+aside section {
+  margin-bottom: 20px;
+}
+
+aside h2 {
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+}
+
+/* Права колонка */
+main > section {
+  flex: 3 1 500px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+main > section h2 {
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+}
+
+/* Списки */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #004080;
+  color: white;
+  margin-top: 20px;
+}
